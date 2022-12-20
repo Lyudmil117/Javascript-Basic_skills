@@ -10,6 +10,7 @@ function area(input){
         let b = Number(input[2]);
         let result = a * b;
         console.log(result)
+        
     } else if (figure === "circle") {
         let a = Number(input[1]);
         let result = Math.PI * a * a;
